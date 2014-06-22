@@ -10,7 +10,19 @@ Demo URI: 		http://demo.fuviz.com/reen
 /*===================================================================================*/
 .flat-icons{
 	width: 220px;
+	max-width: 80%;
 }
+.icon-subtitle{
+	padding-top: 10px;	
+	padding-bottom: 10px;	
+}
+
+@media (min-width: 992px) {
+	#product figure{
+		margin-top: 50px;
+	}
+}
+
 #reasons{
 	background-color: #fffcf5;
 }
@@ -313,8 +325,8 @@ main header + * {
 	margin-top: 35px !important;
 }
 .inner {
-	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 .inner-md {
 	padding-top: 100px;
