@@ -1,11 +1,25 @@
-
+/*===================================================================================*/
+/*	THUMB FEATURES
+/*===================================================================================*/
+$('.features-filter li a').click(function(){
+	$('#feature-heading').text( $(this).text().toUpperCase() );
+});
+/*
+$('.thumb-features').hover(
+	function(e){
+		$(this).find('.thumb-overlay').fadeIn('fast');
+	},
+	function(){
+		$(this).find('.thumb-overlay').fadeOut('fast');
+	}
+);
+*/
 
 /*===================================================================================*/
 /*	HEADER SHRINK
 /*===================================================================================*/
-
 $(document).ready(function() {
-	
+	/*
 	var s = skrollr;
 	var sActive = false;
 	
@@ -24,7 +38,7 @@ $(document).ready(function() {
 			sActive = true;
 		}
 	});
-	
+	*/
 });
 
 
@@ -741,12 +755,18 @@ $(document).ready(function () {
 $(document).ready(function () {
 	
 	function initialize() {
+		var myLatlng = new google.maps.LatLng(1.3129759, 103.8839596);
 		var mapOptions = {
-			zoom: 13,
-			center: new google.maps.LatLng(40.7902778, -73.9597222),
+			zoom: 17,
+			center: myLatlng,
 			disableDefaultUI: true
 		}
 		var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+		var marker = new google.maps.Marker({
+			position: myLatlng,
+			map: map
+		});
 	}
 	
 	google.maps.event.addDomListener(window, 'load', initialize);

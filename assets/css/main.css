@@ -8,9 +8,48 @@ Demo URI: 		http://demo.fuviz.com/reen
 /*===================================================================================*/
 /*	BUOOY EDITS
 /*===================================================================================*/
+.yamm .navbar-collapse{}
 .flat-icons{
 	width: 220px;
 	max-width: 80%;
+}
+.thumb-features:hover{
+	cursor: pointer;
+}
+.branding .thumb-overlay{ /* Blue */
+	background-color: #3F8DBF !important;
+}
+.marketing .thumb-overlay{ /* Orange */
+	background-color: #F27A24 !important;
+}
+.interface .thumb-overlay{ /* Navy */
+	background-color: #3F8DBF !important;
+}
+.support .thumb-overlay{ /* Purple */
+	background-color: #9B59B6 !important;
+}
+.add-ons .thumb-overlay{ /* Red */
+	background-color: #FA6C65 !important;
+}
+.thumb-overlay{
+	position:absolute;
+	top:0;
+	padding: 20px;
+	height: 100%;
+	width: 100%;
+	/* background-color: rgb(45,186, 154); */
+	color: white;
+}
+.thumb-bordered{
+	border: 1px solid #E6E9ED;
+	border-bottom: none;
+	background: #F5F7FA;
+}
+.btn-nav{
+	margin: 0 !important;
+	margin-top: 10px !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
 }
 .icon-subtitle{
 	padding-top: 10px;	
