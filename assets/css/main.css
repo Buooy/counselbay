@@ -8,7 +8,34 @@ Demo URI: 		http://demo.fuviz.com/reen
 /*===================================================================================*/
 /*	BUOOY EDITS
 /*===================================================================================*/
-.yamm .navbar-collapse{}
+.border-right{
+	border-right: 2px solid;
+}
+.border-left{
+	border-left: 2px solid;
+}
+.border-bottom{
+	border-bottom: 2px solid;
+}
+#home-features-1 .feature-col, 
+#home-features-2 .feature-col,
+#home-features-3 .feature-col,
+#home-features-4 .feature-col{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+#home-features-1 .line-icons-md,
+#home-features-2 .line-icons-md,
+#home-features-3 .line-icons-md,
+#home-features-4 .line-icons-md{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.line-icons-md{
+	color: black;
+	height: 100px !important;
+	max-width: 100%;
+}
 .flat-icons{
 	width: 220px;
 	max-width: 80%;
